@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+
+//--------------------------factory pattern added--------------------------------
+
+
 public class Calculator {
     public static void main(String[] args) {
 
