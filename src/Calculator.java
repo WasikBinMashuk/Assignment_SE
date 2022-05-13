@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
 
-        int num1, num2, sum;
+        int number1, number2, summary;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Number: ");
-        num1 = sc.nextInt();
+        number1 = sc.nextInt();
 
         System.out.println("Enter Second Number: ");
-        num2 = sc.nextInt();
+        number2 = sc.nextInt();
 
         sc.close();
-        sum = num1 + num2;
-        System.out.println("Sum of these numbers: "+sum);
+        summary = number1 + number2;
+        System.out.println("Sum of these numbers: "+summary);
     }
 }
